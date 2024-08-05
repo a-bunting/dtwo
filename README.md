@@ -1,2 +1,2 @@
 # dtwo
- A last gasp at  job at dtwo!
+A project to emphasise my skills to dtwo.
