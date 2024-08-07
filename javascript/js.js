@@ -92,18 +92,15 @@ function runNewPageScan() {
         
         const projectToLoad = $(this).attr('data-projectId');
         
-        // set a delay for practice
-        setTimeout(() => {
-            $("#load__content").load("pages/uiux.php?project="+projectToLoad, function() {
+        $("#load__content").load("pages/uiux.php?project="+projectToLoad, function() {
 
-                $(".loader").addClass('loader__fadeOut');
-                
-                setTimeout(() => {
-                    $(".loader").removeClass('loader__fadeOut');
-                    $(".loader").hide();
-                }, 500);
-            })
-        }, 500);
+            $(".loader").addClass('loader__fadeOut');
+            
+            setTimeout(() => {
+                $(".loader").removeClass('loader__fadeOut');
+                $(".loader").hide();
+            }, 500);
+        })
     })
 
     $(".deleteOnClick").each(function() {

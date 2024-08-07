@@ -4,7 +4,7 @@ $galleries =
     array(
         array(
             "galleryName" => "SmartSort",
-            "description" => "SmartSort is scheduling app, designed with schools in mind. This can take any number of students, school blocks, and potential classes and find the best solution to meet everybodies needs. It can help leaders choose what courses are worth running and ensure student choice is the top priority when designing a timetable.",
+            "description" => "SmartSort is a scheduling app, designed with schools in mind. This can take any number of students, school blocks, and potential classes and find the best timetable to meet everybodies needs. It can help administrators choose what courses are worth running and ensure student choice is the top priority when designing a timetable.",
             "logo" => array("filename" => "smartsort-logo.png", "hasLogo" => true, "long" => true),
             "style" => "laptopMobileTablet",
             "links" => array(
@@ -25,47 +25,8 @@ $galleries =
             ]
         ),
         array(
-            "galleryName" => "ReportsZone",
-            "description" => "ReportsZone is a website designed to allow teachers to generate quick yet personal reports for students within their classes. This has taken the time for reporting writing down from several days to under an hour for many of the teachers who have used it. Designed only for larger screens due to the quantity of data and types of interaction users will have.",
-            "logo" => array("filename" => "ReportZone.png", "hasLogo" => true, "long" => false),
-            "style" => "laptop",
-            "links" => array(
-                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/reports"),
-                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://reportszone.sweeto.co.uk/")
-            ),
-            "tech" => [
-                array("long" => false, "name" => "Angular", "filename" => "Angular_trimmed.svg"),
-                array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
-                array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
-                array("long" => true, "name" => "Firebase", "filename" => "firebaselogo.png"),
-            ],
-            "items" => [
-                array("device" => "laptop", "images" => ["rz1.jpg", "rz2.jpg", "rz3.jpg", "rz4.jpg"])
-            ]
-        ),
-        array(
-            "galleryName" => "StellarNova",
-            "description" => "StellarNova is an in progress space trader game based on the early naughties hit, 'Blacknova Traders'. Players navigate the galaxy in their ship trading, earning money and building an empire. This was designed with mobile in mind, and much of the game is already mobile friendly desite the complex UI.",
-            "logo" => array("filename" => "stellarnovalogo.png", "hasLogo" => true, "long" => true),
-            "style" => "laptop",
-            "links" => array(
-                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/StellarNova"),
-                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://rednova.sweeto.co.uk/")
-            ),
-            "tech" => [
-                array("long" => false, "name" => "Angular", "filename" => "Angular_trimmed.svg"),
-                array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
-                array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
-                array("long" => true, "name" => "NodeJS", "filename" => "nodejs.png"),
-                array("long" => true, "name" => "MySQL", "filename" => "mysql.png")
-            ],
-            "items" => [
-                array("device" => "laptop", "images" => ["stellarnova1.jpg", "stellarnova2.jpg", "stellarnova3.jpg"])
-            ]
-        ),
-        array(
             "galleryName" => "WordleLeagues",
-            "description" => "WordleLeagues was built during the wordle craze to facilitate competitive play. Players can use the site to keep track of their scores and see how they rank against their peers. This was designed primarily with mobile in mind, but a tablet and larger screen version is available.",
+            "description" => "WordleLeagues was built during the wordle craze to facilitate competitive play. Players can use the site to keep track of their scores and see how they rank against their peers. Users can create their own leagues or join those made by others. This was designed primarily with mobile in mind, but a tablet and larger screen version is available.",
             "logo" => array("filename" => "wordlelogo.png", "hasLogo" => true, "long" => false),
             "style" => "laptopMobileTablet",
             "links" => array(
@@ -86,27 +47,47 @@ $galleries =
             ]
         ),
         array(
-            "galleryName" => "!This#>Phys",
-            "description" => "!This#>Phys was a response to a lack of decent free physical simulations for Physics students during hte pandemic. It has a range of simulations (some full featured and some in development) to test real physical situations and get data similar to real world data. This site is designed so it can be embedded into other sites, making it perfect to be included in online physics textbooks and for use on tablet screens. It also hosts my mazes generator which is a published Angular repositary.",
-            "logo" => array("filename" => "physicsLogo.png", "hasLogo" => true, "long" => false),
-            "style" => "laptopTablet",
+            "galleryName" => "ReportZone",
+            "description" => "ReportZone is a website designed to allow teachers to generate quick yet personal reports for their students. This has taken the time for report writing down from several days to under an hour for many of the teachers who have used it. Given the range of skills and technical ability for those who use it, a help section with instructional videos accompanies the website to guide all users through the report writing process.",
+            "logo" => array("filename" => "ReportZone.png", "hasLogo" => true, "long" => false),
+            "style" => "laptop",
             "links" => array(
-                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/physics-project"),
-                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://physics.sweeto.co.uk/")
+                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/reports"),
+                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://reportszone.sweeto.co.uk/")
             ),
             "tech" => [
                 array("long" => false, "name" => "Angular", "filename" => "Angular_trimmed.svg"),
                 array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
                 array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
+                array("long" => true, "name" => "Firebase", "filename" => "firebaselogo.png"),
             ],
             "items" => [
-                array("device" => "laptop", "images" => ["physicsLaptop1.jpg", "physicsLaptop2.jpg", "physicsLaptop3.jpg"]),
-                array("device" => "tablet", "images" => ["physicsTablet1.jpg", "physicsTablet2.jpg"]),
+                array("device" => "laptop", "images" => ["rz1.jpg", "rz2.jpg", "rz3.jpg", "rz4.jpg"])
+            ]
+        ),
+        array(
+            "galleryName" => "StellarNova",
+            "description" => "StellarNova is an in progress space trader game based on the early naughties hit, 'Blacknova Traders'. Players navigate the galaxy in their ship; trading, earning money and building an empire. This game utilises a complex UI using Three.JS to present the space ship and websockets to update the user interface based upon other players actions.",
+            "logo" => array("filename" => "stellarnovalogo.png", "hasLogo" => true, "long" => true),
+            "style" => "laptop",
+            "links" => array(
+                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/StellarNova"),
+                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://rednova.sweeto.co.uk/")
+            ),
+            "tech" => [
+                array("long" => false, "name" => "Angular", "filename" => "Angular_trimmed.svg"),
+                array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
+                array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
+                array("long" => true, "name" => "NodeJS", "filename" => "nodejs.png"),
+                array("long" => true, "name" => "MySQL", "filename" => "mysql.png")
+            ],
+            "items" => [
+                array("device" => "laptop", "images" => ["stellarnova1.jpg", "stellarnova2.jpg", "stellarnova3.jpg"])
             ]
         ),
         array(
             "galleryName" => "Apollo 1",
-            "description" => "Apollo is a full featured learning tool, with syllabus structures, activities, objectives, peer feedback abilities and much more. It was a learning tool I used successfully in the classroom for many years, giving me the freedom to work with students in need, whilst giving the brighter students greater opportunity to strecth their learning. This is now deprecated in favour of a new version coming soon with much greater accessibility in terms of mobile first design, something essentially for modern edtech.",
+            "description" => "Apollo is a full featured learning tool, with syllabus structures, activities, objectives, peer feedback abilities and much more. It was a learning tool I used successfully in the classroom for many years, giving me the freedom to work with students in need, whilst giving the brighter students greater opportunity to stretch their learning. This is now in the process of deprecation in favour of a new version coming soon with much greater accessibility in terms of mobile first design, something essential for modern edtech.",
             "logo" => array("filename" => "apollologo.png", "hasLogo" => true, "long" => false),
             "style" => "laptop",
             "links" => array(
@@ -124,8 +105,27 @@ $galleries =
             ]
         ),
         array(
+            "galleryName" => "!This>#Phys",
+            "description" => "!This>#Phys was a response to a lack of decent free physical simulations for Physics students during the pandemic. It has a range of simulations (some full featured and some in development) to test real physical situations and get data similar to that in the real world. This site is designed so it can be embedded into other sites, making it perfect to be included in online physics textbooks and for use on tablet screens. It also hosts my mazes generator which is a published Angular repositary.",
+            "logo" => array("filename" => "physicsLogo.png", "hasLogo" => true, "long" => false),
+            "style" => "laptopTablet",
+            "links" => array(
+                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/physics-project"),
+                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://physics.sweeto.co.uk/")
+            ),
+            "tech" => [
+                array("long" => false, "name" => "Angular", "filename" => "Angular_trimmed.svg"),
+                array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
+                array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
+            ],
+            "items" => [
+                array("device" => "laptop", "images" => ["physicsLaptop1.jpg", "physicsLaptop2.jpg", "physicsLaptop3.jpg"]),
+                array("device" => "tablet", "images" => ["physicsTablet1.jpg", "physicsTablet2.jpg"]),
+            ]
+        ),
+        array(
             "galleryName" => "Quizzical",
-            "description" => "Quizzical is a company part owned and founded by myself. We build academic games tournaments primarily in the international schools circuit. The website was built to be able to put questions together, and quickly build tournaments with questions which have been unseen in other tournaments. The website can build three day tournaments in about 10-20 seconds and allows a host of front end tools to help redesign the tournament by hand if needed. We also have a mobile friendly in game scorer.",
+            "description" => "Quizzical is a company part owned and founded by myself. We build academic games tournaments primarily in the international schools circuit. The website was built to be able to put questions together, and quickly build tournaments with questions which have been unseen in other tournaments. The website can build three day tournaments in about 10-20 seconds and includes a host of front end tools to help redesign the tournament by hand if needed. We also have a mobile friendly in game scorer.",
             "logo" => array("filename" => "quizzicalLogo.png", "hasLogo" => true, "long" => false),
             "style" => "laptop",
             "links" => array(),
@@ -138,6 +138,28 @@ $galleries =
             ],
             "items" => [
                 array("device" => "laptop", "images" => ["quizzicalLaptop1.jpg", "quizzicalLaptop2.jpg", "quizzicalLaptop3.jpg", "quizzicalLaptop4.jpg"]),
+            ]
+        ),
+        array(
+            "galleryName" => "D2 Creative Front End Showcase",
+            "description" => "With the danger of getting slightly meta, this site (the one you are on) was developed with the intention of securing a position with D2 Creative design in Devon UK. It sports a funky retro theme and a host of information about why I should be hired. Written in PHP with jQuery it is also a showcase of my technical ability relevant to the job specification.",
+            "logo" => array("filename" => "dtwoapp.png", "hasLogo" => true, "long" => false),
+            "style" => "laptopMobileTablet",
+            "links" => array(
+                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://dtwo.alexbunting.co.uk/"),
+                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/dtwo")
+            ),
+            "tech" => [
+                array("long" => false, "name" => "PHP", "filename" => "php.png"),
+                array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
+                array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
+                array("long" => true, "name" => "jQuery", "filename" => "jQuery-Logo.png"),
+                array("long" => false, "name" => "Javascript", "filename" => "javascript.png"),
+            ],
+            "items" => [
+                array("device" => "laptop", "images" => ["dtwoLaptop1.jpg", "dtwoLaptop2.jpg"]),
+                array("device" => "tablet", "images" => ["dtwoTablet1.jpg", "dtwoTablet2.jpg", "dtwoTablet3.jpg"]),
+                array("device" => "mobile", "images" => ["dtwoMobile1.jpg", "dtwoMobile2.jpg"]),
             ]
         ),
         array(
@@ -156,28 +178,6 @@ $galleries =
             ],
             "items" => [
                 array("device" => "laptop", "images" => ["arcLaptop1.jpg", "arcLaptop2.jpg", "arcLaptop3.jpg", "arcLaptop4.jpg", "arcLaptop5.jpg"]),
-            ]
-        ),
-        array(
-            "galleryName" => "D2 Creative Front End Showcase",
-            "description" => "With the danger of getting slightly meta, this site (the one you are on) was developed with the intention of securing a position with D2 Creative design in Devon UK. It sports a funky retro theme and a whole load of information about why I should be hired. Written in PHP with jQuery it is also a showcase of my technincal ability.",
-            "logo" => array("filename" => "dtwoapp.png", "hasLogo" => true, "long" => false),
-            "style" => "laptopMobileTablet",
-            "links" => array(
-                array("name" => "Live Site", "icon" => "liveicon.png", "link" => "https://dtwo.alexbunting.co.uk/"),
-                array("name" => "GitHub", "icon" => "Git-Icon-1788C.png", "link" => "https://github.com/a-bunting/dtwo")
-            ),
-            "tech" => [
-                array("long" => false, "name" => "PHP", "filename" => "php.png"),
-                array("long" => false, "name" => "CSS", "filename" => "CSS3_logo_and_wordmark.svg"),
-                array("long" => false, "name" => "HTML5", "filename" => "HTML_Logo2.svg"),
-                array("long" => true, "name" => "jQuery", "filename" => "jQuery-Logo.png"),
-                array("long" => false, "name" => "Javascript", "filename" => "javascript.png"),
-            ],
-            "items" => [
-                array("device" => "laptop", "images" => ["dtwoLaptop1.jpg", "dtwoLaptop2.jpg"]),
-                array("device" => "tablet", "images" => ["dtwoTablet1.jpg", "dtwoTablet2.jpg", "dtwoTablet3.jpg"]),
-                array("device" => "mobile", "images" => ["dtwoMobile1.jpg", "dtwoMobile2.jpg"]),
             ]
         )
     );
