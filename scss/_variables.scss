@@ -1,0 +1,35 @@
+// sizes
+$triggerOne: 70rem;
+$mobile: 45rem;
+
+// colours
+$colorOne: #B4D6CD;
+$colorTwo: #FFDA76;
+$colorThree: #FF8C9E;
+$colorFour: #FF4E88;
+
+@mixin bg-gradient($colorVariable){
+    background: linear-gradient(to right, transparent 0%, $colorVariable 60%, $colorVariable 100%);
+}
+
+:root {
+    --colorOne: #B4D6CD;
+    --colorTwo: #FFDA76;
+    --colorThree: #FF8C9E;
+    --colorFour: #FF4E88;
+}
+
+.jazzyText {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-style: italic;
+    letter-spacing: .15rem;
+
+    color: $colorFour;
+    text-shadow: .5rem .5rem 0 $colorThree;
+
+    -webkit-text-stroke: 5px;
+    -webkit-text-stroke-color: $colorTwo;
+}

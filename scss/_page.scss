@@ -1,0 +1,13 @@
+.page {
+    position: relative;
+    height: 100vh;
+    background-color: $colorTwo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-height: $triggerOne) {
+        height: max-content;
+        min-height: 100vh;
+    }
+}
